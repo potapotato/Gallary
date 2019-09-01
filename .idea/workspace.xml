@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfda15c-418b-4475-9050-dcdcbf906c9a" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallary/Gallary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallary/Gallary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallary/Gallary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallary/Gallary/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gallary/log/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallary/log/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gallary/Gallary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gallary/Gallary/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gallary/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gallary/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gallary/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="188">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="e#13864#13870#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +39,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gallary/Gallary/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#54#89#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,10 +90,10 @@
       <list>
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/Gallary/log/admin.py" />
-        <option value="$PROJECT_DIR$/Gallary/Gallary/views.py" />
         <option value="$PROJECT_DIR$/Gallary/log/models.py" />
         <option value="$PROJECT_DIR$/Gallary/Gallary/settings.py" />
         <option value="$PROJECT_DIR$/Gallary/Gallary/urls.py" />
+        <option value="$PROJECT_DIR$/Gallary/Gallary/views.py" />
         <option value="$PROJECT_DIR$/Gallary/templates/home.html" />
       </list>
     </option>
@@ -162,12 +174,12 @@
       <workItem from="1567172830032" duration="96000" />
       <workItem from="1567216026563" duration="3476000" />
       <workItem from="1567219532237" duration="213000" />
-      <workItem from="1567303898723" duration="1289000" />
+      <workItem from="1567303898723" duration="3503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15816000" />
+    <option name="totallyTimeSpent" value="18030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,7 +194,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28070176" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28070176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -196,7 +208,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32905295" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24398074" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24398074" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.93900484" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.6163724" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -243,27 +255,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gallary/Gallary/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#54#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gallary/log/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gallary/Gallary/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -280,6 +275,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gallary/Gallary/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gallary/Gallary/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -287,10 +289,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gallary/Gallary/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#54#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gallary/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="188">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#13864#13870#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

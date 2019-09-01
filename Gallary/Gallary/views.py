@@ -8,5 +8,5 @@ from log.models import Log
 
 
 def home(request):
-    text_objs = Log.objects
-    return render(request, "home.html", {"text_objs": text_objs})
+    log_objs = Log.objects
+    return render(request, "home.html", {"log_objs": log_objs})
