@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from django.conf.urls.static import static # 导入媒体文件需要的
+from django.conf import settings # 导入媒体文件需要的
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # 导入媒体需要的
 
-# todo: 创建完app后的操作
